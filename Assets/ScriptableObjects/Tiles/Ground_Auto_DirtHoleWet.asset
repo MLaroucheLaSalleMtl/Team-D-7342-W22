@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e4e4fc705376343a3e65b25d94f0e2, type: 3}
+  m_Name: Ground_Auto_DirtHoleWet
+  m_EditorClassIdentifier: 
+  guid: 9087b513-c7f7-4bc3-b7e0-b6e68b973397
+  m_Sprites:
+  - {fileID: 21300000, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300002, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300004, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300006, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300008, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300010, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300012, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300014, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300016, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300018, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300020, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300022, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300024, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300026, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  - {fileID: 21300028, guid: 74e9e5f794c8d674ba684e76f4ea8c5f, type: 3}
+  m_layerIndex: 1

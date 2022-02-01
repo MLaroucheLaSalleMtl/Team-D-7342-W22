@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8bf33056b3cbd43b4213fd7b758703, type: 3}
+  m_Name: Action New Game
+  m_EditorClassIdentifier: 
+  saveSlot: {fileID: 11400000, guid: 1f02da403e5a2d24c94a370b8e9a815b, type: 2}
+  firstScene: {fileID: 11400000, guid: 165c94fa2a2d5eb46b3e4c95758034ed, type: 2}
+  playerScene: {fileID: 11400000, guid: cd30fad475697004789cecffafb520dd, type: 2}

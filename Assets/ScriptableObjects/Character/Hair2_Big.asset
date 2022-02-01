@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0cc05a13a2f6f49af136914ee0dd73, type: 3}
+  m_Name: Hair2_Big
+  m_EditorClassIdentifier: 
+  guid: 50c0441a-f4a0-4a86-85bd-e72f37ee33cf
+  side:
+  - {fileID: 21300002, guid: ae70feb6e90d78b4bbdca006d1daef1e, type: 3}
+  front:
+  - {fileID: 21300000, guid: ae70feb6e90d78b4bbdca006d1daef1e, type: 3}
+  back:
+  - {fileID: 21300004, guid: ae70feb6e90d78b4bbdca006d1daef1e, type: 3}

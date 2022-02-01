@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58b7715f91074746a607529a135c2bb, type: 3}
+  m_Name: Item_Kale
+  m_EditorClassIdentifier: 
+  guid: 5d272c5f-c0d5-4b12-8725-257fabeef9a5
+  icon: {fileID: 21300008, guid: 37a351663d744ea4593d912e93f9c43f, type: 3}
+  itemName: Kale
+  description: Can be sold to a vendor, or eaten.
+  canStack: 1
+  hasSlot: 1
+  hasEnergy: 0
+  energyStartValue:
+    min: 0
+    max: 0
+    current: 0
+  isRemoveable: 1
+  action: {fileID: 0}

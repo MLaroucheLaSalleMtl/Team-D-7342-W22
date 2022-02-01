@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e4e4fc705376343a3e65b25d94f0e2, type: 3}
+  m_Name: Ground_Auto_HighGrass
+  m_EditorClassIdentifier: 
+  guid: fa53062c-26c1-4f30-bff1-367eb8f6cac6
+  m_Sprites:
+  - {fileID: 21300002, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300004, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300006, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300008, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300010, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300012, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300014, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300016, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300018, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300020, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300022, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300024, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300026, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300028, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  - {fileID: 21300030, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
+  m_layerIndex: 1

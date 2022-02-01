@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4d8c8f9364b0c48870439c118f7c0b, type: 3}
+  m_Name: Action Warp Player
+  m_EditorClassIdentifier: 
+  guid: e7439a7d-c8ff-46a2-98f0-e9e7d725b6f6
+  warpRequest: {fileID: 11400000, guid: f00501e44b05cc44f82aceb0cc3d35b9, type: 2}

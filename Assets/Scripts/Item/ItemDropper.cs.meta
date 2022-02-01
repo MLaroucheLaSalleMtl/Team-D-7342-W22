@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 509748adcf159314ea67b340e5846c64
+timeCreated: 1527765739
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lootableItemPool: {fileID: 11400000, guid: 6c2e2e74a7a6c0047bbc669e8510815c, type: 2}
+  - itemData: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

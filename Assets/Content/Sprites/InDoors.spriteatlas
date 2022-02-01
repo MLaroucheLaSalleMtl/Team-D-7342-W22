@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: InDoors
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: dfb2683dce93f644d808ac8b36413f01, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300004, guid: 73b5c454fa3ae924ba2a72331e17a9a5, type: 3}
+  - {fileID: 21300000, guid: 73b5c454fa3ae924ba2a72331e17a9a5, type: 3}
+  - {fileID: 21300002, guid: 73b5c454fa3ae924ba2a72331e17a9a5, type: 3}
+  - {fileID: 21300034, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300030, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300006, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300002, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300000, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300028, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300016, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300010, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300014, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300004, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300036, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300042, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300032, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300038, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300008, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300026, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  - {fileID: 21300040, guid: 309dad89fbdd5724592f5c08fe0718b0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Bed_Top
+  - Bed_Bottom
+  - Bed_Middle
+  - Indoors_House_FrontBottomLeftCorner
+  - Indoors_House_BackRightCorner
+  - Indoors_House_FrontRightCorner
+  - Indoors_House_FrontLeftCorner
+  - Indoors_House_Left
+  - Indoors_House_Back
+  - Indoors_House_Ground
+  - Indoors_House_FrontBottom
+  - Indoors_House_FrontBottomRightCorner
+  - Indoors_House_FrontTop
+  - Indoors_House_Right
+  - Indoors_House_BackCornerRight
+  - Indoors_House_FrontTopLeftCorner
+  - Indoors_House_Dark
+  - Indoors_House_FrontTopRightCorner
+  - Indoors_House_BackLeftCorner
+  - Indoors_House_BackCornerLeft
+  m_RenderDataMap: {}
+  m_Tag: InDoors
+  m_IsVariant: 0

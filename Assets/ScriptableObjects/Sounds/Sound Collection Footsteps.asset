@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0971323336b6d4b8a5d92d9665fe3b, type: 3}
+  m_Name: Sound Collection Footsteps
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 65ebfb85bb978784d80e70ac987afb59, type: 3}
+  - {fileID: 8300000, guid: 68fc8c463908283498506ec875dfd51e, type: 3}
+  - {fileID: 8300000, guid: bc8eeb4c607d17c459826ba8196d06d0, type: 3}
+  pitchVariance: {x: 0.95, y: 1.05}

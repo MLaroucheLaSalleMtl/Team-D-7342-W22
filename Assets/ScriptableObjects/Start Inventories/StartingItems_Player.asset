@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9b8637f7c58ab45afd03c6c0c299cf, type: 3}
+  m_Name: StartingItems_Player
+  m_EditorClassIdentifier: 
+  items:
+  - Data: {fileID: 11400000, guid: 01f8d174962102c4d8c5cf00c70f82e5, type: 2}
+    Amount: 200
+    Energy:
+      min: 0
+      max: 0
+      current: 0
+  - Data: {fileID: 11400000, guid: b6c7bc5235a3e174bb24477617cbadf0, type: 2}
+    Amount: 0
+    Energy:
+      min: 0
+      max: 0
+      current: 0
+  - Data: {fileID: 11400000, guid: 8570aac18e0f2894981189f5452f8875, type: 2}
+    Amount: 0
+    Energy:
+      min: 0
+      max: 0
+      current: 0
+  - Data: {fileID: 11400000, guid: 762a52d8b76c780469aa1692ea9edf49, type: 2}
+    Amount: 0
+    Energy:
+      min: 0
+      max: 0
+      current: 0
+  - Data: {fileID: 11400000, guid: bc59c779f17f48b4eada0be8c748b201, type: 2}
+    Amount: 0
+    Energy:
+      min: 0
+      max: 0
+      current: 0
+  - Data: {fileID: 11400000, guid: 26741901f5e3eb64aade72e03860b605, type: 2}
+    Amount: 0
+    Energy:
+      min: 0
+      max: 0
+      current: 0
+  - Data: {fileID: 11400000, guid: 38547a62d61ad1a4fbb02efa9b7728de, type: 2}
+    Amount: 15
+    Energy:
+      min: 0
+      max: 0
+      current: 0
+  - Data: {fileID: 11400000, guid: 63e8a9a7ecdb7b849bd0391a88255708, type: 2}
+    Amount: 1
+    Energy:
+      min: 0
+      max: 0
+      current: 0

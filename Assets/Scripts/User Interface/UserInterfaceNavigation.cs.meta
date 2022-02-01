@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f3ddc477f0123744ebdc379c589a0627
+timeCreated: 1527466260
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - OnClick: {fileID: 11400000, guid: 35c11aec547bdc043becc35785d98fbb, type: 2}
+  - OnMove: {fileID: 11400000, guid: 3a5209e8f39f86042a07256314e88061, type: 2}
+  - firstFocus: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

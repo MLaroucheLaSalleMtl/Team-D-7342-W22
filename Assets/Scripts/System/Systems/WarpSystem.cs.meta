@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e3688c791e5f5bc41bbacc34f71bd33b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RequestWarp: {fileID: 11400000, guid: f00501e44b05cc44f82aceb0cc3d35b9, type: 2}
+  - OnSceneWarp: {fileID: 11400000, guid: 30bbb5da6c14b19499b9c9d0075eda54, type: 2}
+  - player: {fileID: 11400000, guid: 5612d7ced6107ab4db346650bae674f0, type: 2}
+  - onWarpStart: {fileID: 11400000, guid: 3e46b2e15f518f14ba061e6e3fe7fe60, type: 2}
+  - onWarpEnd: {fileID: 11400000, guid: 1eb5125beb1a3364bb55c8314e3aa40f, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

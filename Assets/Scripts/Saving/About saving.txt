@@ -1,0 +1,5 @@
+This version of the RPG Farming Kit now uses a free version of the Component Save System that has limited features. 
+The plugin mentioned can be found here: https://assetstore.unity.com/packages/tools/utilities/component-save-system-159191
+
+The reasoning behind implementing this plugin instead is because it is more battle tested and developed for multiple years.
+Allowing you, the user for a more stable development experience.

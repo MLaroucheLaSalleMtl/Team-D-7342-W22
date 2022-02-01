@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Breakable
+  - Rock
+  - Damage Volume
+  - Tree
+  - Plant
+  - Bush
+  - Crop
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,9 +22,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Camera
+  - Interactable
   - 
   - 
   - 
@@ -40,4 +48,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Dynamic
+    uniqueID: 3010279593
     locked: 0

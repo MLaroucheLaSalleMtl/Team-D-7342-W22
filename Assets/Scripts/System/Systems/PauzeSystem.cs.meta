@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 64aef72d84df5024e8b8729e52b61c62
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pauzeButton: {fileID: 11400000, guid: f69986c34608dd74b832021818a90448, type: 2}
+  - pauzeEvent: {fileID: 11400000, guid: 1e3ec68e4386ae34899c1744b5844ae8, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0971323336b6d4b8a5d92d9665fe3b, type: 3}
+  m_Name: Sound Collection UI Clicks
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 9940b223e48daee448c7a6ac5abfba1c, type: 3}
+  - {fileID: 8300000, guid: 97353e8ffb4930545814cd11534bf17d, type: 3}
+  - {fileID: 8300000, guid: 3a4bc71ffa233e941ba87b5a994e4752, type: 3}
+  pitchVariance: {x: 0.95, y: 1.05}

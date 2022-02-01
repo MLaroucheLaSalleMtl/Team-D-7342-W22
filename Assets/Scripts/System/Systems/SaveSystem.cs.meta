@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2759d7f398d92074f8fedc822358fd1c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - onGameSave: {fileID: 11400000, guid: d8ade915b2888f446b714153a9cbfa6f, type: 2}
+  - onGameLoad: {fileID: 11400000, guid: e1aa1610e89f0fb4bacfceaf93fd794f, type: 2}
+  - onNewGameStarted: {fileID: 11400000, guid: c7b9e38fca728084dbc00e1f417bf55a, type: 2}
+  - onSceneWarp: {fileID: 11400000, guid: 30bbb5da6c14b19499b9c9d0075eda54, type: 2}
+  - onWarpStart: {fileID: 11400000, guid: 3e46b2e15f518f14ba061e6e3fe7fe60, type: 2}
+  - onWarpEnd: {fileID: 11400000, guid: 1eb5125beb1a3364bb55c8314e3aa40f, type: 2}
+  executionOrder: -1250
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

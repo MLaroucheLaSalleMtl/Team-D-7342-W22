@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169e8a2c7b753a049abc0dc71f01fcd2, type: 3}
+  m_Name: Action Display Item Storage Window
+  m_EditorClassIdentifier: 
+  itemStorageWindow: {fileID: 11400000, guid: 5471bfef056dbe24e9cacbf87f754f40, type: 2}
+  player: {fileID: 11400000, guid: 5612d7ced6107ab4db346650bae674f0, type: 2}
+  requestPauze: {fileID: 11400000, guid: 38f5ddd4a810d3b4c91548cfd13e7975, type: 2}

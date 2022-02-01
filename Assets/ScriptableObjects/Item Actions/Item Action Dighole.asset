@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df495d9399f2fc4abda946f7a4b6ef7, type: 3}
+  m_Name: Item Action Dighole
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  groundTile: {fileID: 11400000, guid: 997b13a5d23c7af409b6e043543f55d7, type: 2}
+  targetTilemapName: Dirt Hole
+  requiredTileMapName: Dirt
+  gridManagerReference: {fileID: 11400000, guid: 3fae82f7a21ee7147a3130aa736701b1,
+    type: 2}
+  onSuccess:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 6c006646fc0ea334591cf90265bb4400, type: 2}
+        m_MethodName: PlaySoundCollection
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 4e7a0d7f9389eb84cafbcd2d853e560e,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SoundCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  weatherEvent: {fileID: 11400000, guid: 7a808d8170e0f7548b391fa8e2bbf284, type: 2}
+  waterGroundTile: {fileID: 11400000, guid: 9c152b313bcd5d042baca17433e129a2, type: 2}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8beab009bae985f459e514ed551ad271
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - onDayTick: {fileID: 11400000, guid: b146691cba0bc374f8ff047918c1d6ea, type: 2}
+  - onWeather: {fileID: 11400000, guid: 7a808d8170e0f7548b391fa8e2bbf284, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1723667223873260}
+  m_IsPrefabParent: 1
+--- !u!1 &1723667223873260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4402970001893430}
+  - component: {fileID: 114684358136648514}
+  m_Layer: 0
+  m_Name: Save System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4402970001893430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723667223873260}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114684358136648514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723667223873260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2759d7f398d92074f8fedc822358fd1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemSettings:
+    hasUpdate: 1
+    hasFixedUpdate: 0
+    updateDelay: 3
+    fixedUpdateDelay: 0
+  cachedSaveData:
+    lastKnownSlotID: 0
+    lastKnownFilePath: 
+    lastScene: 
+    timePlayed:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 0
+    playerName: 
+    farmName: 
+    savedData: []
+  onGameSave: {fileID: 11400000, guid: d8ade915b2888f446b714153a9cbfa6f, type: 2}
+  onGameLoad: {fileID: 11400000, guid: e1aa1610e89f0fb4bacfceaf93fd794f, type: 2}
+  onNewGameStarted: {fileID: 11400000, guid: c7b9e38fca728084dbc00e1f417bf55a, type: 2}
+  onSceneWarp: {fileID: 11400000, guid: 30bbb5da6c14b19499b9c9d0075eda54, type: 2}
+  onWarpStart: {fileID: 11400000, guid: 3e46b2e15f518f14ba061e6e3fe7fe60, type: 2}
+  onWarpEnd: {fileID: 11400000, guid: 1eb5125beb1a3364bb55c8314e3aa40f, type: 2}
+  saveSlot:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 1f02da403e5a2d24c94a370b8e9a815b, type: 2}
+  playerName:
+    UseConstant: 0
+    ConstantValue: 
+    Variable: {fileID: 11400000, guid: 7b2bb3c8407dcf54fa99ff70c459558f, type: 2}
+  farmName:
+    UseConstant: 0
+    ConstantValue: 
+    Variable: {fileID: 11400000, guid: 7414b9a3ac955e848ba9e62a9a15ef0b, type: 2}

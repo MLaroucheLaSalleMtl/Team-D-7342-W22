@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 789b7319cd6958f4b830848566524001, type: 3}
+  m_Name: Action Play Sound
+  m_EditorClassIdentifier: 
+  fxMutedEvent: {fileID: 11400000, guid: 75b90bc740792464a983d032f3d25a86, type: 2}
+  fxVolumeEvent: {fileID: 11400000, guid: 019b31f96940c6e429dd3664ad2a4289, type: 2}
+  fxAudioMixer: {fileID: 243021609953075458, guid: b225f9be77e9d4f419c8019339876305,
+    type: 2}
+  musicVolumeEvent: {fileID: 11400000, guid: c9c42afa3fdc9544e9bad854b2172fad, type: 2}
+  musicMutedEvent: {fileID: 11400000, guid: a49fa6d6ffdc13c45840a8f4d309ff62, type: 2}
+  musicAudioMixer: {fileID: 243467425978078552, guid: b225f9be77e9d4f419c8019339876305,
+    type: 2}

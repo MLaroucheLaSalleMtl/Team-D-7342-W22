@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de147fe8dfddfb42b1fa15b65f77dea, type: 3}
+  m_Name: Item Action Plant Seed Kale
+  m_EditorClassIdentifier: 
+  plantablePrefab: {fileID: 11400000, guid: 7887dc2e0aa4f5246a0dcd521f52b82e, type: 2}
+  gridManagerReference: {fileID: 11400000, guid: 3fae82f7a21ee7147a3130aa736701b1,
+    type: 2}
+  requiredGrid: Dirt Hole

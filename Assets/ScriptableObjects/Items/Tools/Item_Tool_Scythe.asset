@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58b7715f91074746a607529a135c2bb, type: 3}
+  m_Name: Item_Tool_Scythe
+  m_EditorClassIdentifier: 
+  guid: 0c929f40-01fa-4065-b3c5-104edd735469
+  icon: {fileID: 21300010, guid: f7d919c91241eba4ca26f3cf02893f89, type: 3}
+  itemName: Scythe
+  description: Used to cut plants
+  canStack: 0
+  hasSlot: 1
+  hasEnergy: 0
+  isRemoveable: 0
+  action: {fileID: 11400000, guid: 95fcf2033f43ee34da8055c231cf1904, type: 2}

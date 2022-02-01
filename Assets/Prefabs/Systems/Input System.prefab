@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1519842546382538}
+  m_IsPrefabParent: 1
+--- !u!1 &1519842546382538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4734916950580642}
+  - component: {fileID: 114827093120095460}
+  m_Layer: 0
+  m_Name: Input System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4734916950580642
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1519842546382538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114827093120095460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1519842546382538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656bdfc13ee080d46977f6dfb8689834, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemSettings:
+    hasUpdate: 1
+    hasFixedUpdate: 1
+    updateDelay: 0
+    fixedUpdateDelay: 0
+  events:
+    pauze: {fileID: 11400000, guid: f69986c34608dd74b832021818a90448, type: 2}
+    movement: {fileID: 11400000, guid: 3a5209e8f39f86042a07256314e88061, type: 2}
+    scroll: {fileID: 11400000, guid: e320163fb2b738a4eb76096670d473ae, type: 2}
+    numeric: {fileID: 11400000, guid: 80b2b926850b3e241bcec6330f6d9cbe, type: 2}
+    leftMouseClick: {fileID: 11400000, guid: 7e8c9d709015a2c47b1fda9f88084f15, type: 2}
+    mouseMovement: {fileID: 11400000, guid: 3e25cdded8aba1948a427057a6c8248e, type: 2}
+    accept: {fileID: 11400000, guid: 992100f12b3a2ef46a0251f246b64877, type: 2}
+    rightMouseClick: {fileID: 11400000, guid: d5c20171b5c6acb4580eebe04a762749, type: 2}
+  pauzeEvent: {fileID: 11400000, guid: 1e3ec68e4386ae34899c1744b5844ae8, type: 2}
+  ignoreMouseWhenOverlappingUI: 1

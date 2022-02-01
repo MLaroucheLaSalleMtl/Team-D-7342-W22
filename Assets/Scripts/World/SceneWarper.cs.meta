@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 055688a4ae2dee54c958966925f35392
+timeCreated: 1526657628
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - currentLocation: {instanceID: 0}
+  - targetLocation: {instanceID: 0}
+  - warpRequest: {fileID: 11400000, guid: f00501e44b05cc44f82aceb0cc3d35b9, type: 2}
+  - warpValidation: {fileID: 11400000, guid: 6cf2ac95bd6988a42b66c160c74768fb, type: 2}
+  - warpPlayerRequest: {fileID: 11400000, guid: b9573b253bf02d74abfa97297ee99d51,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
