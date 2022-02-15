@@ -6,24 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Core.unity
-    guid: 82086347ac667a14a9a77f7987a3ba4b
-  - enabled: 1
-    path: Assets/Scenes/Levels/InDoors/Level_Cave.unity
-    guid: 0a6f7abbedbab4342a99dab7888f4acc
-  - enabled: 1
-    path: Assets/Scenes/Levels/InDoors/Level_FarmHouse.unity
-    guid: fbf0540af970ba042a1c2efec10c5e04
-  - enabled: 1
-    path: Assets/Scenes/Levels/OutDoors/Level_Farm.unity
-    guid: 0acdcef65a3ddfb408eb36b5b8ed0217
-  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: decd131dcd986ea45a7b82b8df869fbd
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/StartMenu.unity
-    guid: 35f4e479b0e268a42ba950f7594a447d
+    path: Assets/Scenes/Main Scene.unity
+    guid: f2fda0c88f6e59c4b9e542e448e0d724
   m_configObjects: {}

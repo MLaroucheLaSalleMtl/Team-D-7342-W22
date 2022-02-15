@@ -1110,11 +1110,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      arms_front3: 21300016
       arms_side1: 21300002
       legs_side2: 21300034
       arms_front4: 21300018
-      legs_back3: 21300056
+      hair_side0: 21300074
       arms_front2: 21300014
       legs_side3: 21300036
       legs_back1: 21300052
@@ -1132,6 +1131,7 @@ TextureImporter:
       arms_side2: 21300004
       head_side0: 21300068
       head_front0: 21300066
+      arms_side3: 21300006
       chest_back0: 21300064
       legs_side4: 21300038
       legs_front1: 21300042
@@ -1149,8 +1149,8 @@ TextureImporter:
       legs_front3: 21300046
       chest_side0: 21300062
       chest_front0: 21300060
-      hair_side0: 21300074
-      arms_side3: 21300006
+      arms_front3: 21300016
+      legs_back3: 21300056
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
