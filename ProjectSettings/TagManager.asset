@@ -12,6 +12,7 @@ TagManager:
   - Bush
   - Crop
   - Enemy
+  - FieldItem
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,30 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Dynamic
-    uniqueID: 3010279593
+  - name: Ground1
+    uniqueID: 1418231445
+    locked: 0
+  - name: Ground2
+    uniqueID: 3553749231
+    locked: 0
+  - name: Ground3
+    uniqueID: 633062741
+    locked: 0
+  - name: GroundDecoration1
+    uniqueID: 2071037971
+    locked: 0
+  - name: GroundDecoration2
+    uniqueID: 3311809941
+    locked: 0
+  - name: Instances
+    uniqueID: 1248617449
+    locked: 0
+  - name: Front1
+    uniqueID: 2982543581
+    locked: 0
+  - name: Front2
+    uniqueID: 4265310335
+    locked: 0
+  - name: Collisions
+    uniqueID: 257342215
     locked: 0
