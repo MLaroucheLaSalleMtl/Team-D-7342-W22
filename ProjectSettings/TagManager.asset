@@ -13,6 +13,7 @@ TagManager:
   - Crop
   - Enemy
   - FieldItem
+  - Store
   layers:
   - Default
   - TransparentFX

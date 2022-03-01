@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,6 +28,12 @@ public class Inventory : MonoBehaviour
     public List<Item> items = new List<Item>();
     private int slotCnt;
 
+    internal void RemoveItem(int _index)
+    {
+         items.RemoveAt(_index);
+        onChangeItem.Invoke();
+    }
+
     public int SlotCnt
     {
         get =>slotCnt;
@@ -55,6 +62,7 @@ public class Inventory : MonoBehaviour
         return false;
 
     }
+  
 
 private void OnTriggerEnter2D(Collider2D collision) 
 {

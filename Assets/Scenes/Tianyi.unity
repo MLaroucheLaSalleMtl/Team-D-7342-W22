@@ -285,7 +285,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7742144, y: 1}
+    m_SensorSize: {x: 1.7773616, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -358,10 +358,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.19835466
-    y: 0
-    width: 0.6028844
-    height: 1
+    x: 0
+    y: 0.1509434
+    width: 1.0002341
+    height: 0.69753265
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1374,7 +1374,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504144714183067210}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b7ee8156839568468c47e0a631934b4, type: 3}
   m_Name: 

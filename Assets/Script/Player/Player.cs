@@ -7,31 +7,32 @@ public class Player : SingletonMonoBehaviour<Player>
     //Movement parameters
     private float xInput;
     private float yInput;
-    private bool isWalking;
-    private bool isRunning;
-    private bool isIdle;
     private bool isCarring = false;
-    private ToolEffect toolEffect = ToolEffect.none;
-    private bool isUsingToolRight;
-    private bool isUsingToolLeft;
-    private bool isUsingToolUp;
-    private bool isUsingToolDown;
+    private bool isIdle;
     private bool isLiftingToolRight;
     private bool isLiftingToolLeft;
     private bool isLiftingToolUp;
     private bool isLiftingToolDown;
-    private bool isPickingRight;
-    private bool isPickingLeft;
-    private bool isPickingUp;
-    private bool isPickingDown;
+    private bool isRunning;
+    private bool isUsingToolRight;
+    private bool isUsingToolLeft;
+    private bool isUsingToolUp;
+    private bool isUsingToolDown;
     private bool isSwingingToolRight;
     private bool isSwingingToolLeft;
     private bool isSwingingToolUp;
     private bool isSwingingToolDown;
+    private bool isWalking;
+    private bool isPickingRight;
+    private bool isPickingLeft;
+    private bool isPickingUp;
+    private bool isPickingDown;
+    private ToolEffect toolEffect = ToolEffect.none;
+
 
     private Rigidbody2D rigidBody2D;
 
-    private Direction playerDirection;
+    private Direction playerDirection; //field for direction
 
     private float movementSpeed;
 
