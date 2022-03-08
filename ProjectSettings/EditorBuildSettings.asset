@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: decd131dcd986ea45a7b82b8df869fbd
   - enabled: 1
-    path: Assets/Scenes/Junsoo.unity
-    guid: f2fda0c88f6e59c4b9e542e448e0d724
+    path: Assets/Scenes/Scene1_Farm.unity
+    guid: 582615ae0a02e254fb1afe988e580035
+  - enabled: 1
+    path: Assets/Scenes/Tianyi.unity
+    guid: 4a92aac10a172974592129b3b3e96142
   m_configObjects: {}

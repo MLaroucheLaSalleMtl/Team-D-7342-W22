@@ -27,12 +27,17 @@ public class Player : SingletonMonoBehaviour<Player>
     private bool isPickingLeft;
     private bool isPickingUp;
     private bool isPickingDown;
+
+    private Camera mainCamera;
+
     private ToolEffect toolEffect = ToolEffect.none;
 
 
     private Rigidbody2D rigidBody2D;
 
+#pragma warning disable 414
     private Direction playerDirection; //field for direction
+#pragma warning restore 414
 
     private float movementSpeed;
 
@@ -44,21 +49,28 @@ public class Player : SingletonMonoBehaviour<Player>
     {
         base.Awake();
         rigidBody2D = GetComponent<Rigidbody2D>();
+
+        //Get reference to main camera
+        mainCamera = Camera.main;
     }
 
     private void Update()
     {
         #region Player Input
-        ResetAnimationTriggers();
-        PlayerMovementInput();
-        PlayerWalkInput();
+        if (!PlayerInputIsDisabled)
+        {
+            ResetAnimationTriggers();
+            PlayerMovementInput();
+            PlayerWalkInput();
+            PlayerTestInput();
 
-        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarring, toolEffect,
-                isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
-                isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
-                isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
-                isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
-                false, false, false, false);
+            EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarring, toolEffect,
+                    isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
+                    isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
+                    isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
+                    isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
+                    false, false, false, false);
+        }
         #endregion
     }
 
@@ -154,6 +166,68 @@ public class Player : SingletonMonoBehaviour<Player>
             isIdle = false;
             movementSpeed = Settings.runningSpeed;
         }
+    }
+
+    //Test input
+    private void PlayerTestInput()
+    {
+        //Trigger advance time
+        if (Input.GetKey(KeyCode.T))
+        {
+            TimeManager.Instance.TestAdvanceGameMinute();
+        }
+
+        //Trigger advance day
+        if (Input.GetKey(KeyCode.G))
+        {
+            TimeManager.Instance.TestAdvanceGameDay();
+        }
+
+        //Test scene unload/load
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            SceneControllerManager.Instance.FadeAndLoadScene(SceneName.Scene1_Farm.ToString(), transform.position);
+        }
+    }
+
+    private void ResetMovement()
+    {
+        //Reset movement
+        xInput = 0f;
+        yInput = 0f;
+        isRunning = false;
+        isWalking = false;
+        isIdle = true;
+    }
+
+    public void DisablePlayerInputAndResetMovement()
+    {
+        DisablePlayerInput();
+        ResetMovement();
+
+        //Send event to any listeners for player movement input
+        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarring, toolEffect,
+                    isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
+                    isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
+                    isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
+                    isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
+                    false, false, false, false);
+    }
+
+    public void DisablePlayerInput()
+    {
+        PlayerInputIsDisabled = true;
+    }
+
+    public void EnablePlayerInput()
+    {
+        PlayerInputIsDisabled = false;
+    }
+
+    public Vector3 GetPlayerViewportPosition()
+    {
+        //Vector3 viewport position for player ((0,0) viewport bottom left, (1,1) viewport top right
+        return mainCamera.WorldToViewportPoint(transform.position);
     }
 
     public int health = 100;
